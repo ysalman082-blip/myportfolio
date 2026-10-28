@@ -3,60 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Assignments</title>
+    <title>Youssef Mohamed Salman | Portfolio</title>
 
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f0f5fa;
             color: #333;
-            text-align: center;
             margin: 0;
-            padding: 30px;
+            line-height: 1.6;
         }
 
-        h1 {
-            color: #315b78;
+        header {
+            background-color: #315b78;
+            color: white;
+            text-align: center;
+            padding: 40px 15px;
         }
 
-        .assignment {
+        section {
             background-color: white;
-            max-width: 500px;
-            margin: 20px auto;
-            padding: 20px;
+            max-width: 800px;
+            margin: 25px auto;
+            padding: 25px;
             border-radius: 8px;
         }
 
-        a {
+        h2 {
             color: #315b78;
+            border-bottom: 2px solid #dce8f0;
+            padding-bottom: 8px;
+        }
+
+        .skill {
+            display: inline-block;
+            background-color: #e2edf5;
+            color: #315b78;
+            padding: 6px 12px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        a {
+            display: inline-block;
+            background-color: #315b78;
+            color: white;
+            padding: 10px 16px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background-color: #24465e;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            color: #666;
+        }
+
+        @media (max-width: 600px) {
+            section {
+                margin: 15px;
+                padding: 18px;
+            }
         }
     </style>
 </head>
 
 <body>
-    <h1>My Assignments</h1>
 
-    <div class="assignment">
-        <h2>Assignment 1</h2>
-        <p>My first assignment.</p>
-        <p>Assignment will be added soon.</p>
-    </div>
+    <header>
+        <h1>Youssef Mohamed Salman</h1>
+        <p>Computer and Information Student</p>
+        <p>Suez Canal University</p>
+    </header>
 
-    <div class="assignment">
-        <h2>Assignment 2</h2>
-        <p>Assignment will be added soon.</p>
-    </div>
+    <section>
+        <h2>About Me</h2>
+        <p>
+            Hello! My name is Youssef Mohamed Salman.
+            I am a second-year student at the Faculty of
+            Computers and Information, Suez Canal University.
+        </p>
+        <p>
+            I am interested in learning programming and
+            improving my web development skills.
+        </p>
+    </section>
 
-    <div class="assignment">
-        <h2>Assignment 3</h2>
-        <p>Assignment will be added soon.</p>
-    </div>
+    <section>
+        <h2>My Skills</h2>
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">Java</span>
+        <span class="skill">Problem Solving</span>
+        <span class="skill">Basic Programming</span>
+    </section>
 
-    <div class="assignment">
-        <h2>Assignment 4</h2>
-        <p>Assignment will be added soon.</p>
-    </div>
+    <section>
+        <h2>My Assignments</h2>
+        <p>
+            You can view my assignments using the link below.
+        </p>
 
-    <p><a href="../index.html">Back to Portfolio</a></p>
+        <a href="https://drive.google.com/drive/folders/1RBYsy8rs10bu1H0pIVr47imbB20tgY56?usp=drive_link"
+           target="_blank" rel="noopener noreferrer">
+            View Assignments
+        </a>
+    </section>
+
+    <footer>
+        <p>Youssef Mohamed Salman - 2026</p>
+    </footer>
+
 </body>
 </html>
